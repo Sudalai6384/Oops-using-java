@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class Triangle{
+public static void main(String arg[]){
+int a,b,c,sum;
+Scanner s= new Scanner(System.in);
+System.out.println("enter the degree of a");
+a=s.nextInt();
+System.out.println("enter the degree of b");
+b=s.nextInt();
+System.out.println("enter the degree of c");
+c=s.nextInt();
+sum=a+b+c;
+if(sum==180){
+System.out.println("triangle is formed");}
+else{
+System.out.println("triangle is not formed");}
+}}
