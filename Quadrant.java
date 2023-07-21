@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class Quadrant{
+public static void main(String arg[]){
+int x,y;
+Scanner s= new Scanner(System.in);
+System.out.println("enter the value of x");
+x=s.nextInt();
+System.out.println("enter the value of y");
+y=s.nextInt();
+
+if(x>0&&y>0){
+System.out.println("the coordinate point(" +x +"," +y +") lies in the First quadrant");}
+else if(x<0&&y>0){
+System.out.println("the coordinate point(" +x +"," +y +") lies in the Second quadrant");}
+else if(x<0&&y<0){
+System.out.println("the coordinate point(" +x +"," +y +") lies in the Third quadrant");}
+else if(x>0&&y<0){
+System.out.println("the coordinate point(" +x +"," +y +") lies in the fourth quadrant");}
+else{
+System.out.println("the points intersect with the axis");}
+
+}}
