@@ -1,0 +1,11 @@
+import java.io.*;
+import java.util.Scanner;
+class CtoF{
+public static void main(String args[]){
+Scanner s = new Scanner(System.in);
+System.out.println("Enter the temp in celcius:");
+float C =s.nextInt();
+float F=(C*(9/5)+32);
+System.out.println(F);
+}
+}
