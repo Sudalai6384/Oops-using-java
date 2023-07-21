@@ -1,0 +1,32 @@
+import java.io.*;
+class Details
+{
+  int doc_id;
+  String doc_name;
+float ratings;}
+void insertRecord(int i,String n,float r)
+{
+     doc_id=i;
+	 doc_name=n;
+	 ratings=r;
+}
+void displayInformation()
+{
+	System.out.println(doc_id+" "+doc_name+" "+ratings);
+}
+	 
+}
+class Doctor1{
+public static void main(String[] args)
+   {
+	
+        Details d1=new Details();
+		Details d2=new Details();
+		d1.insertRecord(103,"Karan",8.3f);
+		d2.insertRecord(111,"Vasu",7.9f);
+		d1.displayInformation();
+		d2.displayInformation();
+		
+	
+    }
+}
